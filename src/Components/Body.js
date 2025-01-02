@@ -4,9 +4,9 @@ export default function Body() {
   const options = [
     "Single-Select",
     "Multi-Select",
-    // "Rating",
-    // "Open-end",
-    // "Drag and drop",
+    "Rating",
+    "Open-end",
+    "Drag and drop",
     "Radio multicheck rating",
     "Custom Set up",
   ];
@@ -84,80 +84,80 @@ export default function Body() {
       },
      
     ],
-    // "Rating": [
-    //   {
-    //     title: "Single Select Rating",
-    //     description: "Rate on a 0-10 scale.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241299",
-    //     imgSrc: "Radiomulticheckrating6.gif ",
-    //   },
-    //   {
-    //     title: "Single Select Rating",
-    //     description: "Rate on a 1-5 scale.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241296",
-    //     imgSrc: "Radiomulticheckrating7.gif ",
-    //   },
-    //   {
-    //     title: "Smiley Rating",
-    //     description: "Rate using smiley faces.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241298",
-    //     imgSrc: "./Radiomulticheckrating8.gif",
-    //   },
-    //   {
-    //     title: "Like-Dislike Rating",
-    //     description: "Rate using thumbs up or down.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241297",
-    //     imgSrc: "Radiomulticheckrating9.gif",
-    //   },
-    //   {
-    //     title: "Drag Rating Scale",
-    //     description: "Rate by dragging items on a scale.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241284",
-    //     imgSrc: "Radiomulticheckrating26.gif",
-    //   },
-    //   {
-    //     title: "Slider Rating",
-    //     description: "Rate items by adjusting sliders.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241286",
-    //     imgSrc: "Radiomulticheckrating28.gif",
-    //   },
-    //   {
-    //     title: "Slider",
-    //     description: "Select a value using a slider.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241287",
-    //     imgSrc: "Radiomulticheckrating29.gif",
-    //   },
+    "Rating": [
+      {
+        title: "Single Select Rating",
+        description: "Rate on a 0-10 scale.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241299",
+        imgSrc: "Radiomulticheckrating6.gif ",
+      },
+      {
+        title: "Single Select Rating",
+        description: "Rate on a 1-5 scale.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241296",
+        imgSrc: "Radiomulticheckrating7.gif ",
+      },
+      {
+        title: "Smiley Rating",
+        description: "Rate using smiley faces.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241298",
+        imgSrc: "./Radiomulticheckrating8.gif",
+      },
+      {
+        title: "Like-Dislike Rating",
+        description: "Rate using thumbs up or down.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241297",
+        imgSrc: "Radiomulticheckrating9.gif",
+      },
+      {
+        title: "Drag Rating Scale",
+        description: "Rate by dragging items on a scale.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241284",
+        imgSrc: "Radiomulticheckrating26.gif",
+      },
+      {
+        title: "Slider Rating",
+        description: "Rate items by adjusting sliders.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241286",
+        imgSrc: "Radiomulticheckrating28.gif",
+      },
+      {
+        title: "Slider",
+        description: "Select a value using a slider.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241287",
+        imgSrc: "Radiomulticheckrating29.gif",
+      },
 
-    //   {
-    //     title: "Button Rating",
-    //     description: "Rate using a button scale.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241282",
-    //     imgSrc: "Radiomulticheckrating32.gif",
-    //   },
-    //   {
-    //     title: "Star Rating",
-    //     description: "Rate using stars.",
-    //     linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241283",
-    //     imgSrc: "Radiomulticheckrating33.gif",
-    //   },
-    // ],
-    // "Open-end": [
-    //   {
-    //     title: "Text Field",
-    //     description: "Enter a single-line response.",
-    //     imgSrc:
-    //       "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
-    //   },
-    // ],
+      {
+        title: "Button Rating",
+        description: "Rate using a button scale.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241282",
+        imgSrc: "Radiomulticheckrating32.gif",
+      },
+      {
+        title: "Star Rating",
+        description: "Rate using stars.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241283",
+        imgSrc: "Radiomulticheckrating33.gif",
+      },
+    ],
+    "Open-end": [
+      {
+        title: "Text Field",
+        description: "Enter a single-line response.",
+        imgSrc:
+          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+      },
+    ],
 
-    // "Drag and drop": [
-    //   {
-    //     title: "Rank Items",
-    //     description: "Drag and drop items to rank them.",
-    //     imgSrc:
-    //       "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
-    //   },
-    // ],
+    "Drag and drop": [
+      {
+        title: "Rank Items",
+        description: "Drag and drop items to rank them.",
+        imgSrc:
+          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+      },
+    ],
 
     "Radio multicheck rating": [
       {
