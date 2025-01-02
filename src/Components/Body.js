@@ -404,7 +404,7 @@ export default function Body() {
         {options.map((option, index) => (
           <p
             key={index}
-            className="bg-[#F7F3F3] font-medium text-2xl px-4 py-2 rounded-3xl shadow-lg cursor-pointer hover:scale-105 hover:shadow-[0_5px_15px_rgba(0,0,0,1)] transition-transform duration-300"
+            className="bg-[#F7F3F3] font-medium text-[13px] px-2 py-2 rounded-3xl shadow-lg cursor-pointer hover:scale-105 hover:shadow-[0_5px_15px_rgba(0,0,0,1)] transition-transform duration-300"
             onClick={() => handleScrollTo(option)} // Scroll on click
           >
             {option}
@@ -417,7 +417,8 @@ export default function Body() {
         <div
           key={index}
           ref={(el) => (sectionRefs.current[option] = el)} // Assign ref for each section
-          className="bg-white shadow-xl p-4  rounded-2xl"
+          className="bg-white  p-4  rounded-2xl"
+          style={{ boxShadow: '0 0px 15px rgba(0, 0, 0, 0.50)' }}
         >
           <p className="text-[24px] font-semibold ">{option}</p>
           <div className="flex flex-wrap  md:gap-8 gap-2">
