@@ -7,7 +7,8 @@ export default function Body() {
     "Rating",
     "Open-end",
     "Drag and drop",
-    "Radio multicheck rating",
+    "Image and video",
+    "Text Highlighter, Card sort, HeatMap and Shopping Cart",
     "Custom Set up",
   ];
 
@@ -82,9 +83,8 @@ export default function Body() {
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241279",
         imgSrc: "./Radiomulticheckrating4.gif",
       },
-     
     ],
-    "Rating": [
+    Rating: [
       {
         title: "Single Select Rating",
         description: "Rate on a 0-10 scale.",
@@ -143,23 +143,89 @@ export default function Body() {
     ],
     "Open-end": [
       {
-        title: "Text Field",
-        description: "Enter a single-line response.",
-        imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+        title: "Numeric box",
+        description: "Question trigger based on response.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241241",
+        imgSrc: "./CustomSetup5.gif",
+      },
+      {
+        title: "Numeric box",
+        description: "Question trigger based on response.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241242",
+        imgSrc: "./CustomSetup6.gif",
+      },
+      {
+        title: "Open end",
+        description: "Question trigger based on response of 'First Box’.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241243",
+        imgSrc: "./CustomSetup7.gif",
+      },
+      {
+        title: "Custom textbox",
+        description: "Enter the phone number with extension.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241245",
+        imgSrc: "./CustomSetup8.gif",
       },
     ],
 
     "Drag and drop": [
       {
-        title: "Rank Items",
-        description: "Drag and drop items to rank them.",
+        title: "Drag and Drop",
+        description: "Drag items to desired locations.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241288",
+        imgSrc: "Radiomulticheckrating24.gif",
+      },
+      {
+        title: "Drag and drop",
+        description: " image drag and drop with enlarge image property",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241254",
+        imgSrc:
+          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+      },
+    ],
+    "Image and video": [
+      {
+        title: " Image",
+        description: "Question based on 'Time interval'.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241244",
+        imgSrc: "./CustomSetup9.gif",
+      },
+
+      {
+        title: "Image Magnifier",
+        description: "It will zoom on image when hover.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241248",
+        imgSrc: "./CustomSetup10.gif",
+      },
+      {
+        title: "Image pop-up on click",
+        description: "Image get zoom on clicking it .",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241249",
+        imgSrc: "./CustomSetup11.gif",
+      },
+      {
+        title: "Image on hover",
+        description: "Image will show when hover on text .",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241250",
+        imgSrc: "./CustomSetup12.gif",
+      },
+      {
+        title: "Video Player",
+        description: "Watch a video and respond.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241291",
+        imgSrc:
+          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+      },
+      {
+        title: "Audio Player",
+        description: "Listen to audio and answer the question.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241293",
         imgSrc:
           "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
       },
     ],
 
-    "Radio multicheck rating": [
+    "Text Highlighter, Card sort, HeatMap and Shopping Cart": [
       {
         title: "Single Select",
         description:
@@ -177,20 +243,11 @@ export default function Body() {
       },
 
       {
-        title: "Audio Player",
-        description: "Listen to audio and answer the question.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241293",
-        imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
-      },
-    
-      {
         title: "Card Sort Multi-Select",
         description: "Sort multiple items into categories.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241290",
         imgSrc: " Radiomulticheckrating5.gif",
       },
-      
 
       {
         title: "Shopping Cart",
@@ -199,27 +256,18 @@ export default function Body() {
         imgSrc: "Radiomulticheckrating10.gif",
       },
 
-      {
-        title: "Video Player",
-        description: "Watch a video and respond.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241291",
-        imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
-      },
-
-     
-      {
-        title: "Image Slide Show",
-        description: "View a slideshow and answer questions.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241271",
-        imgSrc: "Radiomulticheckrating15.gif",
-      },
-      {
-        title: "Page Tuner",
-        description: "Turn pages and respond to questions.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241270",
-        imgSrc: "Radiomulticheckrating16.gif",
-      },
+      // {
+      //   title: "Image Slide Show",
+      //   description: "View a slideshow and answer questions.",
+      //   linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241271",
+      //   imgSrc: "Radiomulticheckrating15.gif",
+      // },
+      // {
+      //   title: "Page Tuner",
+      //   description: "Turn pages and respond to questions.",
+      //   linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241270",
+      //   imgSrc: "Radiomulticheckrating16.gif",
+      // },
       {
         title: "Checkbox with Open End",
         description: "Select options and add comments.",
@@ -234,28 +282,19 @@ export default function Body() {
         imgSrc: "Radiomulticheckrating19.gif",
       },
 
-     
-      
-      {
-        title: "Drag and Drop",
-        description: "Drag items to desired locations.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241288",
-        imgSrc: "Radiomulticheckrating24.gif",
-      },
       {
         title: "Card Sort Single Select",
         description: "Sort items into categories with single selection.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241289",
         imgSrc: "Radiomulticheckrating25.gif",
       },
-     
+
       {
         title: "Card Rating",
         description: "Rate items by selecting cards.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241285",
         imgSrc: "Radiomulticheckrating27.gif",
       },
-     
     ],
     "Custom Set up": [
       {
@@ -282,55 +321,6 @@ export default function Body() {
           " Question trigger based on selction of 'Not very likely' & 'Not at all likely'.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241240",
         imgSrc: "./CustomSetup4.gif",
-      },
-      {
-        title: "Numeric box",
-        description: "Question trigger based on response.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241241",
-        imgSrc: "./CustomSetup5.gif",
-      },
-      {
-        title: "Numeric box",
-        description: "Question trigger based on response.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241242",
-        imgSrc: "./CustomSetup6.gif",
-      },
-      {
-        title: "Open end",
-        description: "Question trigger based on response of 'First Box’.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241243",
-        imgSrc: "./CustomSetup7.gif",
-      },
-      {
-        title: "Custom textbox",
-        description: "Enter the phone number with extension.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241245",
-        imgSrc: "./CustomSetup8.gif",
-      },
-      {
-        title: " Image",
-        description: "Question based on 'Time interval'.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241244",
-        imgSrc: "./CustomSetup9.gif",
-      },
-
-      {
-        title: "Image Magnifier",
-        description: "It will zoom on image when hover.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241248",
-        imgSrc: "./CustomSetup10.gif",
-      },
-      {
-        title: "Image pop-up on click",
-        description: "Image get zoom on clicking it .",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241249",
-        imgSrc: "./CustomSetup11.gif",
-      },
-      {
-        title: "Image on hover",
-        description: "Image will show when hover on text .",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241250",
-        imgSrc: "./CustomSetup12.gif",
       },
 
       {
@@ -364,13 +354,7 @@ export default function Body() {
         imgSrc:
           "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
       },
-      {
-        title: "Drag and drop",
-        description: " image drag and drop with enlarge image property",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241254",
-        imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
-      },
+
       {
         title: "Drop down",
         description:
