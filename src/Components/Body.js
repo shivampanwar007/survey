@@ -212,9 +212,16 @@ export default function Body() {
       {
         title: "Video Player",
         description: "Watch a video and respond.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241291",
+        linkk: " https://thsurveys.decipherinc.com/survey/selfserve/53b/241291",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./videosimple.gif",
+      },
+      {
+        title: "Video rating",
+        description: "Watch a video and rate.",
+        linkk: " https://thsurveys.decipherinc.com/survey/selfserve/53b/240830",
+        imgSrc:
+          "./videoratiing.gif",
       },
       {
         title: "Audio Player",
