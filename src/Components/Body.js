@@ -122,7 +122,7 @@ export default function Body() {
         imgSrc: "./slideer.gif",
       },
       {
-        title: "Slider",
+        title: "Number slider",
         description: "Select a value using a slider.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241287",
         imgSrc: "./Radiomulticheckrating29.gif",
@@ -143,7 +143,7 @@ export default function Body() {
     ],
     "Open-end": [
       {
-        title: "Numeric box",
+        title: " Numeric Box Grid",
         description: "Question trigger based on response.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241241",
         imgSrc: "./CustomSetup5.gif",
@@ -234,21 +234,7 @@ export default function Body() {
           "https://thsurveys.decipherinc.com/survey/selfserve/53b/250100#?",
         imgSrc: "./texthighliter.gif",
       },
-      {
-        title: "Single Select",
-        description:
-          "Select one option with logo and description layout (1-10 scale).",
-        linkk:
-          "https://thsurveys.decipherinc.com/survey/selfserve/53b/241264?_dj#",
-        imgSrc: "./Radiomulticheckrating1.gif",
-      },
-      {
-        title: "Single Select",
-        description:
-          "Select one option with logo and description layout (1-5 scale).",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241265",
-        imgSrc: "./Radiomulticheckrating2.gif",
-      },
+      
 
       {
         title: "Card Sort Multi-Select",
@@ -276,19 +262,19 @@ export default function Body() {
       //   linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241270",
       //   imgSrc: "Radiomulticheckrating16.gif",
       // },
-      {
-        title: "Checkbox with Open End",
-        description: "Select options and add comments.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241266",
-        imgSrc: "Radiomulticheckrating17.gif",
-      },
+      // {
+      //   title: "Checkbox with Open End",
+      //   description: "Select options and add comments.",
+      //   linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241266",
+      //   imgSrc: "Radiomulticheckrating17.gif",
+      // },
 
-      {
-        title: "Textbox Intro",
-        description: "Enter introductory text.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241269",
-        imgSrc: "Radiomulticheckrating19.gif",
-      },
+      // {
+      //   title: "Textbox Intro",
+      //   description: "Enter introductory text.",
+      //   linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241269",
+      //   imgSrc: "Radiomulticheckrating19.gif",
+      // },
 
       {
         title: "Card Sort Single Select",
@@ -330,13 +316,28 @@ export default function Body() {
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241240",
         imgSrc: "./CustomSetup4.gif",
       },
+      {
+        title: "Single Select",
+        description:
+          "Select one option with logo and description layout (1-10 scale).",
+        linkk:
+          "https://thsurveys.decipherinc.com/survey/selfserve/53b/241264?_dj#",
+        imgSrc: "./Radiomulticheckrating1.gif",
+      },
+      {
+        title: "Single Select",
+        description:
+          "Select one option with logo and description layout (1-5 scale).",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241265",
+        imgSrc: "./Radiomulticheckrating2.gif",
+      },
 
       {
-        title: " Slider",
+        title: " Slider with exclusive None",
         description: " Custom Slider setup with exclusive option.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241247",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./customsetupslider.gif",
       },
       {
         title: "Merged Question",
