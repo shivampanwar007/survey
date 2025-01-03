@@ -53,12 +53,12 @@ export default function Body() {
       },
     ],
     "Multi-Select": [
-      {
-        title: "Multiple Checkbox",
-        description: "Choose multiple options on one page.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241267",
-        imgSrc: "Radiomulticheckrating14.gif",
-      },
+      // {
+      //   title: "Multiple Checkbox",
+      //   description: "Choose multiple options on one page.",
+      //   linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241267",
+      //   imgSrc: "Radiomulticheckrating14.gif",
+      // },
       {
         title: "Multi Select Grid",
         description: "Choose multiple options in a grid.",
@@ -176,7 +176,7 @@ export default function Body() {
         imgSrc: "Radiomulticheckrating24.gif",
       },
       {
-        title: "Drag and drop",
+        title: " Drag and Drop Images",
         description: " image drag and drop with enlarge image property",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241254",
         imgSrc:
