@@ -89,13 +89,13 @@ export default function Body() {
         title: "Single Select Rating",
         description: "Rate on a 0-10 scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241299",
-        imgSrc: "Radiomulticheckrating6.gif ",
+        imgSrc: "./Radiomulticheckrating6.gif ",
       },
       {
         title: "Single Select Rating",
         description: "Rate on a 1-5 scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241296",
-        imgSrc: "Radiomulticheckrating7.gif ",
+        imgSrc: "./Radiomulticheckrating7.gif ",
       },
       {
         title: "Smiley Rating",
@@ -107,38 +107,38 @@ export default function Body() {
         title: "Like-Dislike Rating",
         description: "Rate using thumbs up or down.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241297",
-        imgSrc: "Radiomulticheckrating9.gif",
+        imgSrc: "./Radiomulticheckrating9.gif",
       },
       {
         title: "Drag Rating Scale",
         description: "Rate by dragging items on a scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241284",
-        imgSrc: "Radiomulticheckrating26.gif",
+        imgSrc: "./Radiomulticheckrating26.gif",
       },
       {
         title: "Slider Rating",
         description: "Rate items by adjusting sliders.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241286",
-        imgSrc: "Radiomulticheckrating28.gif",
+        imgSrc: "./slideer.gif",
       },
       {
         title: "Slider",
         description: "Select a value using a slider.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241287",
-        imgSrc: "Radiomulticheckrating29.gif",
+        imgSrc: "./Radiomulticheckrating29.gif",
       },
 
       {
         title: "Button Rating",
         description: "Rate using a button scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241282",
-        imgSrc: "Radiomulticheckrating32.gif",
+        imgSrc: "./Radiomulticheckrating32.gif",
       },
       {
         title: "Star Rating",
         description: "Rate using stars.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241283",
-        imgSrc: "Radiomulticheckrating33.gif",
+        imgSrc: "./Radiomulticheckrating33.gif",
       },
     ],
     "Open-end": [
@@ -180,7 +180,7 @@ export default function Body() {
         description: " image drag and drop with enlarge image property",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241254",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./draganddrop.gif",
       },
     ],
     "Image and video": [
@@ -226,6 +226,14 @@ export default function Body() {
     ],
 
     "Text Highlighter, Card sort, HeatMap and Shopping Cart": [
+      {
+        title: "Text Highter",
+        description:
+          "Highlite the text which you like by hovering over it .",
+        linkk:
+          "https://thsurveys.decipherinc.com/survey/selfserve/53b/250100#?",
+        imgSrc: "./texthighliter.gif",
+      },
       {
         title: "Single Select",
         description:
@@ -335,8 +343,7 @@ export default function Body() {
         description:
           " Number question grid with exclusive checkbox for each option.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241251",
-        imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+        imgSrc:"./customsetupMGquestion1.gif",
       },
       {
         title: "Merged Question",
@@ -344,7 +351,7 @@ export default function Body() {
           " Number question grid with exclusive checkbox for each option 2.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241252",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./customsetupMGquestion2.gif",
       },
       {
         title: "Merged Question",
@@ -352,16 +359,16 @@ export default function Body() {
           " Show option selected from the dropdown list in one column ",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241259",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./customsetupMGquestion3.gif",
       },
 
       {
         title: "Drop down",
         description:
-          "Example question to fix columns on topmost side of the page when scrolling",
+          "question to fix col on topmost side of the page when scrolling",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241258",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./customsetupdropdown.gif",
       },
       {
         title: "AutoSum",
@@ -369,22 +376,22 @@ export default function Body() {
           " Calculating percentage distribution in an autosum/number grid",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241260",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./custumsetupautosum.gif",
       },
       {
         title: "Number question",
         description: "exclusive checkbox and autosum enabled for each column",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241253",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./custumsetupNumberquestion.gif",
       },
       {
         title: "Drop down and number",
         description:
-          "Calculating percentage distribution in an drop down merged with number question",
+          "Cal % distribution in an drop down merged with number question",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241261",
         imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+          "./custumsetupDropdownandnumber.gif",
       },
     ],
   };
@@ -404,7 +411,7 @@ export default function Body() {
         {options.map((option, index) => (
           <p
             key={index}
-            className="bg-[#F7F3F3] font-medium text-[13px] px-2 py-2 rounded-3xl shadow-lg cursor-pointer hover:scale-105 hover:shadow-[0_5px_15px_rgba(0,0,0,1)] transition-transform duration-300"
+            className="bg-[#2e4884] font-medium text-[13px] text-white px-2 py-2 rounded-3xl shadow-lg cursor-pointer hover:scale-105 hover:shadow-[0_5px_15px_rgba(46,72,255,1)] transition-transform duration-300"
             onClick={() => handleScrollTo(option)} // Scroll on click
           >
             {option}
@@ -418,17 +425,17 @@ export default function Body() {
           key={index}
           ref={(el) => (sectionRefs.current[option] = el)} // Assign ref for each section
           className="bg-white  p-4  rounded-2xl"
-          style={{ boxShadow: '0 0px 15px rgba(0, 0, 0, 0.50)' }}
+          style={{ boxShadow: '0 0px 15px rgba(46, 72, 255, 0.50)' }}
         >
-          <p className="text-[24px] font-semibold ">{option}</p>
-          <div className="flex flex-wrap  md:gap-8 gap-2">
+          <p className="text-[24px] font-semibold pb-4 ">{option}</p>
+          <div className="flex flex-wrap  justify-between md:justify-normal  md:gap-8 gap-2">
             {itemsData[option].map((item, idx) => (
-              <div key={idx} className="py-4">
-                <p className="text-[24px] font-medium">{item.title}</p>
-                <p className="sm:w-[260px] sm:h-[80px] py-2">
+              <div key={idx} className=" ">
+                <p className="text-[20px] font-medium ">{item.title}</p>
+                <p className="sm:w-[200px] sm:h-[50px] text-[12px] py-2">
                   {item.description}
                 </p>
-                <div className="card sm:w-[280px] sm:h-[170px] rounded-3xl bg-gradient-to-b from-[#6871f0] to-[rgb(9,102,241)] p-[3px] hover:scale-105 hover:shadow-[0_5px_15px_rgba(9,102,241)] transition-transform duration-300">
+                <div className="card sm:w-[200px] sm:h-[125px] h-[250px] rounded-3xl bg-gradient-to-b from-[#6871f0] to-[rgb(9,102,241)] p-[3px] hover:scale-105 hover:shadow-[0_5px_15px_rgba(9,102,241)] transition-transform duration-300">
                   <a
                     href={item.linkk}
                     target="_blank"

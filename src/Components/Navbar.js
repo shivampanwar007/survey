@@ -26,7 +26,7 @@ const Navbar = () => {
               About
             </a>
 
-            <a href="#" className="hover:text-gray-400">
+            <a href="https://www.tehrihills.com/contact-us/" className="hover:text-gray-400">
               Contact
             </a>
           </div>
