@@ -223,13 +223,13 @@ export default function Body() {
         imgSrc:
           "./videoratiing.gif",
       },
-      {
-        title: "Audio Player",
-        description: "Listen to audio and answer the question.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241293",
-        imgSrc:
-          "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
-      },
+      // {
+      //   title: "Audio Player",
+      //   description: "Listen to audio and answer the question.",
+      //   linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241293",
+      //   imgSrc:
+      //     "https://cms.imgworlds.com/assets/473cfc50-242c-46f8-80be-68b867e28919.jpg?key=home-gallery",
+      // },
     ],
 
     "Text Highlighter, Card sort, HeatMap and Shopping Cart": [
