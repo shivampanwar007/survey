@@ -256,6 +256,12 @@ export default function Body() {
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241292",
         imgSrc: "Radiomulticheckrating10.gif",
       },
+      {
+        title: "Image HeatMap",
+        description: "Participants highlight areas of interest on an image.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/250101",
+        imgSrc: "heatmap.gif",
+      },
 
       // {
       //   title: "Image Slide Show",
