@@ -2,14 +2,14 @@ import React, { useRef } from "react";
 
 export default function Body() {
   const options = [
+    "Text Highlighter, Card sort, HeatMap and Shopping Cart",
+    "Custom Set up",
+    "Image and video",
+    "Drag and drop",
     "Single-Select",
     "Multi-Select",
     "Rating",
     "Open-end",
-    "Drag and drop",
-    "Image and video",
-    "Text Highlighter, Card sort, HeatMap and Shopping Cart",
-    "Custom Set up",
   ];
 
   const itemsData = {

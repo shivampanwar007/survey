@@ -4,7 +4,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="text-black">
+    <nav className="text-black bg-gradient-to-l from-[#2f3576] to-[#1462d6]">
       <div className="">
         <div className="flex items-center  justify-between md:px-10 pr-[20px]">
           <div className="flex items-center">
@@ -19,16 +19,16 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden text-[24px] font-medium md:flex space-x-24 font-serif">
-            <a href="#" className="hover:text-gray-400">
+            <a href="#" className="hover:text-gray-400 text-[white]">
               Home
             </a>
-            <a href="#" className="hover:text-gray-400">
-              About
-            </a>
+            
 
-            <a href="https://www.tehrihills.com/contact-us/" className="hover:text-gray-400">
-              Contact
+           <button className="bg-white rounded-lg px-2">
+           <a href="https://www.tehrihills.com/contact-us/" className="hover:text-gray-400">
+              Get in Touch
             </a>
+           </button>
           </div>
 
           {/* Mobile Menu Button */}
