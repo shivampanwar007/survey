@@ -20,6 +20,7 @@ export default function Body3() {
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241268",
         imgSrc: "Radiomulticheckrating18.gif",
       },
+      
       {
         title: "Single Select Button",
         description: "Select one option using buttons.",
@@ -216,13 +217,15 @@ export default function Body3() {
     ],
 
     "Text Highlighter, Card sort, HeatMap and Shopping Cart": [
+     
       {
         title: "Text Highter",
         description: "Highlite the text which you like by hovering over it .",
         linkk:
           "https://thsurveys.decipherinc.com/survey/selfserve/53b/250100#?",
-        imgSrc: "./texthighliter.gif",
+        imgSrc: "./rr.gif",
       },
+  
 
       {
         title: "Card Sort Multi-Select",
@@ -395,29 +398,36 @@ export default function Body3() {
                     <p className="sm:w-[200px] sm:h-[50px] text-[12px] py-2">
                       {item.description}
                     </p>
-                    <div className="card sm:w-[200px] sm:h-[125px] h-[250px] rounded-3xl bg-gradient-to-b from-[#6871f0] to-[rgb(9,102,241)] p-[3px] hover:scale-105 hover:shadow-[0_5px_15px_rgba(9,102,241)] transition-transform duration-300">
-                      <a
-                        href={item.linkk}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {item.imgSrc.endsWith(".mp4") ? (
-                          <video
-                            className="w-full h-full object-contain rounded-[20px]"
-                            src={item.imgSrc}
-                            controls
-                            loop
-                            autoPlay
-                            muted
-                          />
-                        ) : (
-                          <img
-                            className="w-full h-full object-fit rounded-[20px]"
-                            src={item.imgSrc}
-                            alt={item.title}
-                          />
-                        )}
-                      </a>
+                    <div className="card sm:w-[200px] sm:h-[110px] h-[250px] rounded-3xl bg-gradient-to-b from-[#6871f0] to-[rgb(9,102,241)] p-[3px] hover:scale-105 hover:shadow-[0_5px_15px_rgba(9,102,241)] transition-transform duration-300">
+                    <a
+  href="#"
+  onClick={(e) => {
+    e.preventDefault(); // Prevent default link behavior
+    window.open(
+      item.linkk,
+      "_blank",
+      "width=800,height=600,scrollbars=yes,resizable=yes"
+    );
+  }}
+>
+  {item.imgSrc.endsWith(".mp4") ? (
+    <video
+      className="w-full h-full object-contain rounded-[20px]"
+      src={item.imgSrc}
+      controls
+      loop
+      autoPlay
+      muted
+    />
+  ) : (
+    <img
+      className="w-full h-full object-fit rounded-[20px]"
+      src={item.imgSrc}
+      alt={item.title}
+    />
+  )}
+</a>
+
                     </div>
                   </div>
                 ))}
