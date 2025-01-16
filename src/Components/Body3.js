@@ -223,7 +223,7 @@ export default function Body3() {
         description: "Highlite the text which you like by hovering over it .",
         linkk:
           "https://thsurveys.decipherinc.com/survey/selfserve/53b/250100#?",
-        imgSrc: "./rr.gif",
+        imgSrc: "./texthighter.gif",
       },
   
 
@@ -231,34 +231,34 @@ export default function Body3() {
         title: "Card Sort Multi-Select",
         description: "Sort multiple items into categories.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241290",
-        imgSrc: " Radiomulticheckrating5.gif",
+        imgSrc: "CardSortMulti-Select.gif",
       },
 
       {
         title: "Shopping Cart",
         description: "Select and manage items in a cart.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241292",
-        imgSrc: "Radiomulticheckrating10.gif",
+        imgSrc: "ShoppingCart.gif",
       },
       {
         title: "Image HeatMap",
         description: "Participants highlight areas of interest on an image.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/250101",
-        imgSrc: "heatmap.gif",
+        imgSrc: "ImageHeatMap.gif",
       },
 
       {
         title: "Card Sort Single Select",
         description: "Sort items into categories with single selection.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241289",
-        imgSrc: "Radiomulticheckrating25.gif",
+        imgSrc: "CardSortSingleSelect.gif",
       },
 
       {
         title: "Card Rating",
         description: "Rate items by selecting cards.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241285",
-        imgSrc: "Radiomulticheckrating27.gif",
+        imgSrc: "CardRating.gif",
       },
     ],
     "Custom Set up": [
