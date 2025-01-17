@@ -4,7 +4,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="text-black bg-gradient-to-l from-[#2f3576] to-[#1462d6]">
+    <nav className="text-black ">
+      {/* bg-gradient-to-l from-[#2f3576] to-[#1462d6] */}
       <div className="">
         <div className="flex items-center  justify-between md:px-10 pr-[20px]">
           <div className="flex items-center">
@@ -19,7 +20,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden text-[24px] font-medium md:flex space-x-24 font-serif">
-            <a href="#" className="hover:text-gray-400 text-[white]">
+            <a href="#" className="hover:text-gray-400 ">
               Home
             </a>
             

@@ -5,16 +5,17 @@ import { MdMarkEmailRead } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <div className="text-white bg-black font-serif flex lg:flex-row   justify-between lg:justify-normal lg:px-[40px] px-4 py-[30px] bg-gradient-to-l from-[#202453] to-[#0f55bf]">
+    <div className="text-white  font-serif flex lg:flex-row   justify-between lg:justify-normal lg:px-[40px] px-4 py-[30px] bg-[#2e4884]">
       <div className="lg:w-[400px] 2xl:w-[600px]">
+      {/* bg-gradient-to-l from-[#202453] to-[#0f55bf] */}
         <a href="https://www.tehrihills.com/">
           <img
-            className="md:w-[140px] md:h-[80px] w-[100px] h-[55px]"
-            src="./LOGO.png"
+            className="md:w-[110px] md:h-[60px] w-[100px] h-[55px] mb-3"
+            src="./LOGO-WHITE.webp"
             alt="TehriHills"
           />
         </a>
-        <p className="md:w-[300px] md:pl-7 text-[12px] md:text-[16px] ">
+        <p className="md:w-[300px] md:pl-2 text-[12px] md:text-[16px] ">
           Your Trusted Global Market Research Company
         </p>
       </div>

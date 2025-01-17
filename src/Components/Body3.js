@@ -2,7 +2,9 @@ import React, { useRef, useState } from "react";
 
 export default function Body3() {
   const options = [
-    "Text Highlighter, Card sort, HeatMap and Shopping Cart",
+    "Text Highlighter and HeatMap",
+    // "Shopping Cart",
+    // "Card sort",
     "Custom Set up",
     "Image and video",
     "Drag and drop",
@@ -18,38 +20,38 @@ export default function Body3() {
         title: "Simple Radio",
         description: "Choose a single option from a list.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241268",
-        imgSrc: "Radiomulticheckrating18.gif",
+        imgSrc: "./singleselect/SimpleRadio.gif",
       },
       
       {
         title: "Single Select Button",
         description: "Select one option using buttons.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241274",
-        imgSrc: "Radiomulticheckrating12.gif",
+        imgSrc: "./singleselect/SingleselectButton.gif",
       },
       {
         title: "Single Select Grid",
         description: "Select one option per row in a grid.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241273",
-        imgSrc: "Radiomulticheckrating20.gif",
+        imgSrc: "./singleselect/Singleselectgrid.gif",
       },
       {
         title: "Single Select Button Grid",
         description: "Choose a single option in a grid format.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241275",
-        imgSrc: "Radiomulticheckrating13.gif",
+        imgSrc: "./singleselect/Singleselectbuttongrid.gif",
       },
       {
         title: "This or That",
         description: "Choose between two options.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241281",
-        imgSrc: "Radiomulticheckrating31.gif",
+        imgSrc: "./singleselect/ThisorThat.gif",
       },
       {
         title: "Dropdown",
         description: "Choose an option from a dropdown menu.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241280",
-        imgSrc: "Radiomulticheckrating30.gif",
+        imgSrc: "./singleselect/Dropdown.gif",
       },
     ],
     "Multi-Select": [
@@ -57,25 +59,25 @@ export default function Body3() {
         title: "Multi Select Grid",
         description: "Choose multiple options in a grid.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241277",
-        imgSrc: "Radiomulticheckrating21.gif",
+        imgSrc: "./multiselect/MultiselectGrid.gif",
       },
       {
         title: "Multi Select",
         description: "Choose multiple options.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241276",
-        imgSrc: "Radiomulticheckrating22.gif",
+        imgSrc: "./multiselect/Multiselect.gif",
       },
       {
         title: "Multi Select Button",
         description: "Select multiple options using buttons.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241278",
-        imgSrc: "Radiomulticheckrating23.gif",
+        imgSrc: "./multiselect/MultiselectButton.gif",
       },
       {
         title: "Multi Select Grid Button",
         description: "Select multiple options in a grid format.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241279",
-        imgSrc: "./Radiomulticheckrating4.gif",
+        imgSrc: "./multiselect/MultiselectGridButton.gif",
       },
     ],
     Rating: [
@@ -83,56 +85,56 @@ export default function Body3() {
         title: "Single Select Rating",
         description: "Rate on a 0-10 scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241299",
-        imgSrc: "./Radiomulticheckrating6.gif ",
+        imgSrc: "./rating/SingleSelectRating.gif ",
       },
       {
         title: "Single Select Rating",
         description: "Rate on a 1-5 scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241296",
-        imgSrc: "./Radiomulticheckrating7.gif ",
+        imgSrc: "./rating/SingleSelectRating2.gif ",
       },
       {
         title: "Smiley Rating",
         description: "Rate using smiley faces.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241298",
-        imgSrc: "./Radiomulticheckrating8.gif",
+        imgSrc: "./rating/SmileyRating.gif",
       },
       {
         title: "Like-Dislike Rating",
         description: "Rate using thumbs up or down.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241297",
-        imgSrc: "./Radiomulticheckrating9.gif",
+        imgSrc: "./rating/LikeDislikeRating.gif",
       },
       {
         title: "Drag Rating Scale",
         description: "Rate by dragging items on a scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241284",
-        imgSrc: "./Radiomulticheckrating26.gif",
+        imgSrc: "./rating/Dragratingscale.gif",
       },
       {
         title: "Slider Rating",
         description: "Rate items by adjusting sliders.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241286",
-        imgSrc: "./slideer.gif",
+        imgSrc: "./rating/SliderRatingScale.gif",
       },
       {
         title: "Number slider",
         description: "Select a value using a slider.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241287",
-        imgSrc: "./Radiomulticheckrating29.gif",
+        imgSrc: "./rating/NumberSlider.gif",
       },
 
       {
         title: "Button Rating",
         description: "Rate using a button scale.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241282",
-        imgSrc: "./Radiomulticheckrating32.gif",
+        imgSrc: "./rating/Buttonrating.gif",
       },
       {
         title: "Star Rating",
         description: "Rate using stars.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241283",
-        imgSrc: "./Radiomulticheckrating33.gif",
+        imgSrc: "./rating/StarRating.gif",
       },
     ],
     "Open-end": [
@@ -167,7 +169,7 @@ export default function Body3() {
         title: "Drag and Drop",
         description: "Drag items to desired locations.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241288",
-        imgSrc: "Radiomulticheckrating24.gif",
+        imgSrc: "./dragdrop/Draganddrop.gif",
       },
       {
         title: " Drag and Drop Images",
@@ -206,7 +208,7 @@ export default function Body3() {
         title: "Video Player",
         description: "Watch a video and respond.",
         linkk: " https://thsurveys.decipherinc.com/survey/selfserve/53b/241291",
-        imgSrc: "./videosimple.gif",
+        imgSrc: "./imagevideo/VideoPlayer.gif",
       },
       {
         title: "Video rating",
@@ -216,14 +218,14 @@ export default function Body3() {
       },
     ],
 
-    "Text Highlighter, Card sort, HeatMap and Shopping Cart": [
+    "Text Highlighter and HeatMap": [
      
       {
         title: "Text Highter",
         description: "Highlite the text which you like by hovering over it .",
         linkk:
           "https://thsurveys.decipherinc.com/survey/selfserve/53b/250100#?",
-        imgSrc: "./texthighter.gif",
+        imgSrc: "./first/texthighter.gif",
       },
   
 
@@ -231,34 +233,34 @@ export default function Body3() {
         title: "Card Sort Multi-Select",
         description: "Sort multiple items into categories.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241290",
-        imgSrc: "CardSortMulti-Select.gif",
+        imgSrc: "./first/CardSortMultiSelect.gif",
       },
 
       {
         title: "Shopping Cart",
         description: "Select and manage items in a cart.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241292",
-        imgSrc: "ShoppingCart.gif",
+        imgSrc: "./first/ShoppingCart.gif",
       },
       {
         title: "Image HeatMap",
         description: "Participants highlight areas of interest on an image.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/250101",
-        imgSrc: "ImageHeatMap.gif",
+        imgSrc: "./first/ImageHeatMap.gif",
       },
 
       {
         title: "Card Sort Single Select",
         description: "Sort items into categories with single selection.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241289",
-        imgSrc: "CardSortSingleSelect.gif",
+        imgSrc: "./first/CardSortSingleSelect.gif",
       },
 
       {
         title: "Card Rating",
         description: "Rate items by selecting cards.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241285",
-        imgSrc: "CardRating.gif",
+        imgSrc: "./first/CardRating.gif",
       },
     ],
     "Custom Set up": [
@@ -293,14 +295,14 @@ export default function Body3() {
           "Select one option with logo and description layout (1-10 scale).",
         linkk:
           "https://thsurveys.decipherinc.com/survey/selfserve/53b/241264?_dj#",
-        imgSrc: "./Radiomulticheckrating1.gif",
+        imgSrc: "./custom/Custom-SetupSingleselect.gif",
       },
       {
         title: "Single Select",
         description:
           "Select one option with logo and description layout (1-5 scale).",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241265",
-        imgSrc: "./Radiomulticheckrating2.gif",
+        imgSrc: "./custom/Custom-SetupSingleselect1-5.gif",
       },
 
       {
