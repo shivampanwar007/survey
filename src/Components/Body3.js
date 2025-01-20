@@ -291,7 +291,7 @@ export default function Body3() {
         title: "Card Sort Single Select",
         description: "Sort items into categories with single selection.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241289",
-        imgSrc: "./first/CardSortSingleSelect.gif",
+        imgSrc: "./first/CardSortSingleselect.gif",
       },
 
       {
