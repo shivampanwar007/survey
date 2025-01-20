@@ -3,8 +3,9 @@ import React, { useRef, useState } from "react";
 export default function Body3() {
   const options = [
     "Text Highlighter and HeatMap",
-    // "Shopping Cart",
+    "Shopping Cart",
     // "Card sort",
+    "Conjoint",
     "Custom Set up",
     "Image and video",
     "Drag and drop",
@@ -54,6 +55,42 @@ export default function Body3() {
         imgSrc: "./singleselect/Dropdown.gif",
       },
     ],
+    "Shopping Cart":[
+      {
+        title: "Shopping Cart",
+        description: "Select and manage items in a cart.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241292",
+        imgSrc: "./first/ShoppingCart.gif",
+      },
+      {
+        title: "Shopping cart conjoint",
+        description: "Select and manage items in a cart.",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240511?debug=respview",
+        imgSrc: "./singleselect/SimpleRadio.gi",
+      },
+    ],
+
+    "Conjoint":[
+      {
+        title: "Maxdiff Survey",
+        description: ".",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240508?id=test&debug=respview",
+        imgSrc: "./first/ShoppingCart.gi",
+      },
+      {
+        title: "Complex B2B DCM",
+        description: ".",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240507?debug=respview",
+        imgSrc: "./singleselect/SimpleRadio.gi",
+      },
+      {
+        title: "DCM normal",
+        description: ".",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240509?debug=respview",
+        imgSrc: "./singleselect/SimpleRadio.gi",
+      },
+    ],
+
     "Multi-Select": [
       {
         title: "Multi Select Grid",
@@ -142,25 +179,25 @@ export default function Body3() {
         title: " Numeric Box Grid",
         description: "Question trigger based on response.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241241",
-        imgSrc: "./CustomSetup5.gif",
+        imgSrc: "./openend/Numericbox.gif",
       },
       {
         title: "Numeric box",
         description: "Question trigger based on response.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241242",
-        imgSrc: "./CustomSetup6.gif",
+        imgSrc: "./openend/NumberboxGrid.gif",
       },
       {
         title: "Open end",
         description: "Question trigger based on response of 'First Box’.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241243",
-        imgSrc: "./CustomSetup7.gif",
+        imgSrc: "./openend/Customtextbox.gif",
       },
       {
         title: "Custom textbox",
         description: "Enter the phone number with extension.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241245",
-        imgSrc: "./CustomSetup8.gif",
+        imgSrc: "./openend/Openend.gif",
       },
     ],
 
@@ -175,7 +212,13 @@ export default function Body3() {
         title: " Drag and Drop Images",
         description: " image drag and drop with enlarge image property",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241254",
-        imgSrc: "./draganddrop.gif",
+        imgSrc: "./dragdrop/DragandDropImage.gif",
+      },
+      {
+        title: " Drag and Drop Images",
+        description: " image drag and drop with enlarge image property",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240510?debug=respview",
+        imgSrc: "./dragdrop/DragandDropImage.gi",
       },
     ],
     "Image and video": [
@@ -183,26 +226,26 @@ export default function Body3() {
         title: " Image",
         description: "Question based on 'Time interval'.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241244",
-        imgSrc: "./CustomSetup9.gif",
+        imgSrc: "./imagevideo/CustomSetup9.gif",
       },
 
       {
         title: "Image Magnifier",
         description: "It will zoom on image when hover.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241248",
-        imgSrc: "./CustomSetup10.gif",
+        imgSrc: "./imagevideo/ImageMagnifier.gif",
       },
       {
         title: "Image pop-up on click",
         description: "Image get zoom on clicking it .",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241249",
-        imgSrc: "./CustomSetup11.gif",
+        imgSrc: "./imagevideo/Imagepopuponclick.gif",
       },
       {
         title: "Image on hover",
         description: "Image will show when hover on text .",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241250",
-        imgSrc: "./CustomSetup12.gif",
+        imgSrc: "./imagevideo/ImageonHover.gif",
       },
       {
         title: "Video Player",
@@ -214,7 +257,7 @@ export default function Body3() {
         title: "Video rating",
         description: "Watch a video and rate.",
         linkk: " https://thsurveys.decipherinc.com/survey/selfserve/53b/240830",
-        imgSrc: "./videoratiing.gif",
+        imgSrc: "./imagevideo/Videorating.gif",
       },
     ],
 
@@ -236,12 +279,7 @@ export default function Body3() {
         imgSrc: "./first/CardSortMultiSelect.gif",
       },
 
-      {
-        title: "Shopping Cart",
-        description: "Select and manage items in a cart.",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241292",
-        imgSrc: "./first/ShoppingCart.gif",
-      },
+      
       {
         title: "Image HeatMap",
         description: "Participants highlight areas of interest on an image.",
@@ -268,26 +306,26 @@ export default function Body3() {
         title: "Radio",
         description: "Trigger based on selection.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241237",
-        imgSrc: "./CustomSetup1.gif",
+        imgSrc: "./custom/Radio-1.gif",
       },
       {
         title: "Radio",
         description: "Open-end trigger based on selection.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241238",
-        imgSrc: "./CustomSetup2.gif",
+        imgSrc: "./custom/Radio-2.gif",
       },
       {
         title: "Multicheck",
         description: "Trigger subgroups dynamically on selection.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241239",
-        imgSrc: "./CustomSetup3.gif",
+        imgSrc: "./custom/Multicheck.gif",
       },
       {
         title: " Radio Grid",
         description:
           " Question trigger based on selction of 'Not very likely' & 'Not at all likely'.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241240",
-        imgSrc: "./CustomSetup4.gif",
+        imgSrc: "./custom/RadioGrid.gif",
       },
       {
         title: "Single Select",
@@ -309,28 +347,28 @@ export default function Body3() {
         title: " Slider with exclusive None",
         description: " Custom Slider setup with exclusive option.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241247",
-        imgSrc: "./customsetupslider.gif",
+        imgSrc: "./custom/Sliderwithexclusivenone.gif",
       },
       {
         title: "Merged Question",
         description:
           " Number question grid with exclusive checkbox for each option.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241251",
-        imgSrc: "./customsetupMGquestion1.gif",
+        imgSrc: "./custom/Mergedquestion-1.gif",
       },
       {
         title: "Merged Question",
         description:
           " Number question grid with exclusive checkbox for each option 2.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241252",
-        imgSrc: "./customsetupMGquestion2.gif",
+        imgSrc: "./custom/Mergedquestion-2.gif",
       },
       {
         title: "Merged Question",
         description:
           " Show option selected from the dropdown list in one column ",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241259",
-        imgSrc: "./customsetupMGquestion3.gif",
+        imgSrc: "./custom/Mergedquestion-3.gif",
       },
 
       {
@@ -338,27 +376,27 @@ export default function Body3() {
         description:
           "question to fix col on topmost side of the page when scrolling",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241258",
-        imgSrc: "./customsetupdropdown.gif",
+        imgSrc: "./custom/Dropdowncustom.gif",
       },
       {
         title: "AutoSum",
         description:
           " Calculating percentage distribution in an autosum/number grid",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241260",
-        imgSrc: "./custumsetupautosum.gif",
+        imgSrc: "./custom/Autosum.gif",
       },
       {
         title: "Number question",
         description: "exclusive checkbox and autosum enabled for each column",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241253",
-        imgSrc: "./custumsetupNumberquestion.gif",
+        imgSrc: "./custom/Numberquestion.gif",
       },
       {
         title: "Drop down and number",
         description:
           "Cal % distribution in an drop down merged with number question",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/241261",
-        imgSrc: "./custumsetupDropdownandnumber.gif",
+        imgSrc: "./custom/Dropwdownandnumber.gif",
       },
     ],
   };
