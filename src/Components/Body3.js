@@ -264,7 +264,7 @@ export default function Body3() {
     "Text Highlighter and HeatMap": [
      
       {
-        title: "Text Highter",
+        title: "Text Highlighter",
         description: "Highlite the text which you like by hovering over it .",
         linkk:
           "https://thsurveys.decipherinc.com/survey/selfserve/53b/250100#?",

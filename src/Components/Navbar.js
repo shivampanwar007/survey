@@ -7,8 +7,8 @@ const Navbar = () => {
     <nav className="text-black ">
       {/* bg-gradient-to-l from-[#2f3576] to-[#1462d6] */}
       <div className="">
-        <div className="flex items-center  justify-between md:px-10 pr-[20px]">
-          <div className="flex items-center">
+      <div className="flex items-center justify-between md:px-10 pr-[20px] border-b-4 border-b-[#2e4884]">
+      <div className="flex items-center">
             <a href="https://www.tehrihills.com/">
               <img
                 className="md:w-[140px] md:h-[80px] w-[100px] h-[55px]"
@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden text-[24px] font-medium md:flex space-x-24 font-serif">
+          <div className="hidden text-[24px] font-medium md:flex space-x-16 font-serif">
             <a href="#" className="hover:text-gray-400 ">
               Home
             </a>
