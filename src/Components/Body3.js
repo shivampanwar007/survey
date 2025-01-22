@@ -265,7 +265,7 @@ export default function Body3() {
      
       {
         title: "Text Highlighter",
-        description: "Highlite the text which you like by hovering over it .",
+        description: "Highlighter the text which you like by hovering over it .",
         linkk:
           "https://thsurveys.decipherinc.com/survey/selfserve/53b/250100#?",
         imgSrc: "./first/texthighter.gif",
@@ -446,7 +446,7 @@ export default function Body3() {
     window.open(
       item.linkk,
       "_blank",
-      "width=800,height=600,scrollbars=yes,resizable=yes"
+      "width=1000,height=800,scrollbars=yes,resizable=yes"
     );
   }}
 >
