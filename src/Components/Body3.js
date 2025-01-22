@@ -428,7 +428,7 @@ export default function Body3() {
           {/* Items Section */}
           {expandedSection === option && (
             <div
-              className="bg-white p-4 rounded-2xl transition-all duration-300"
+              className="bg-white p-10 rounded-2xl transition-all duration-300"
               style={{ boxShadow: "0 0px 15px rgba(46, 72, 255, 0.50)" }}
             >
               <div className="flex flex-wrap justify-between md:justify-normal md:gap-8 gap-2">
