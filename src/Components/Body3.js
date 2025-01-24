@@ -66,7 +66,7 @@ export default function Body3() {
         title: "Shopping cart conjoint",
         description: "Select and manage items in a cart.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240511?debug=respview",
-        imgSrc: "./singleselect/SimpleRadio.gi",
+        imgSrc: "./ShoppingCartCojoint.gif",
       },
     ],
 
@@ -75,19 +75,19 @@ export default function Body3() {
         title: "Maxdiff Survey",
         description: ".",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240508?id=test&debug=respview",
-        imgSrc: "./first/ShoppingCart.gi",
+        imgSrc: "./MaxDiff.gif",
       },
       {
         title: "Complex B2B DCM",
         description: ".",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240507?debug=respview",
-        imgSrc: "./singleselect/SimpleRadio.gi",
+        imgSrc: "./ComplexDCM.gif",
       },
       {
         title: "DCM normal",
         description: ".",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240509?debug=respview",
-        imgSrc: "./singleselect/SimpleRadio.gi",
+        imgSrc: "./NormalDCM.gif",
       },
     ],
 
