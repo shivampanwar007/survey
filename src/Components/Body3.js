@@ -78,17 +78,18 @@ export default function Body3() {
         imgSrc: "./MaxDiff.gif",
       },
       {
-        title: "Complex B2B DCM",
-        description: ".",
-        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240507?debug=respview",
-        imgSrc: "./ComplexDCM.gif",
-      },
-      {
         title: "DCM normal",
         description: ".",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240509?debug=respview",
         imgSrc: "./NormalDCM.gif",
       },
+      {
+        title: "Complex B2B DCM",
+        description: ".",
+        linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240507?debug=respview",
+        imgSrc: "./ComplexDCM.gif",
+      },
+     
     ],
 
     "Multi-Select": [
@@ -407,7 +408,7 @@ export default function Body3() {
     setExpandedSection((prev) => (prev === option ? null : option));
   };
   return (
-    <div className="xl:px-[70px] lg:px-[50px] md:px-[30px] px-[24px] font-serif space-y-8">
+    <div className="xl:px-[70px] lg:px-[50px] md:px-[30px] px-[24px] font- space-y-8">
       <div className="text-[32px] font-medium  ">
         Question Database
         </div>
@@ -415,7 +416,7 @@ export default function Body3() {
         <div key={index} className="space-y-4">
           {/* Heading Section */}
           <div
-            className="w-full bg-white text-black px-4 py-2 rounded-xl shadow-lg cursor-pointer flex justify-between items-center"
+            className="w-full bg-[#31bc6c] text-white px-4 py-2 rounded-xl shadow-lg cursor-pointer flex justify-between items-center"
             onClick={() => toggleSection(option)}
             style={{ boxShadow: "0 0px 15px rgba(46, 72, 255, 0.50)" }}
           >
