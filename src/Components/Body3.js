@@ -64,7 +64,7 @@ export default function Body3() {
       },
       {
         title: "Shopping cart conjoint",
-        description: "Select and manage items in a cart.",
+        description: "participants simulate purchasing items from an online store.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240511?debug=respview",
         imgSrc: "./ShoppingCartCojoint.gif",
       },
@@ -73,19 +73,19 @@ export default function Body3() {
     "Conjoint":[
       {
         title: "Maxdiff Survey",
-        description: ".",
+        description: "Uses 'Best-Worst' scaling to rank preferences for items.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240508?id=test&debug=respview",
         imgSrc: "./MaxDiff.gif",
       },
       {
         title: "DCM normal",
-        description: ".",
+        description: " Analyzes choices for pricing.",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240509?debug=respview",
         imgSrc: "./NormalDCM.gif",
       },
       {
         title: "Complex B2B DCM",
-        description: ".",
+        description: "Predicts B2B decision-making ",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240507?debug=respview",
         imgSrc: "./ComplexDCM.gif",
       },
@@ -219,7 +219,7 @@ export default function Body3() {
         title: " Drag and Drop Images",
         description: " image drag and drop with enlarge image property",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240510?debug=respview",
-        imgSrc: "./dragdrop/DragandDropImage.gi",
+        imgSrc: "./dragdrop/ImageDragandDrop-ezgif.com-crop.gif",
       },
     ],
     "Image and video": [
@@ -408,7 +408,7 @@ export default function Body3() {
     setExpandedSection((prev) => (prev === option ? null : option));
   };
   return (
-    <div className="xl:px-[70px] lg:px-[50px] md:px-[30px] px-[24px] font- space-y-8">
+    <div className="xl:px-[70px] lg:px-[50px] md:px-[30px] px-[24px] font-serif space-y-8">
       <div className="text-[32px] font-medium  ">
         Question Database
         </div>
