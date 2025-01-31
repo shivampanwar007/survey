@@ -219,7 +219,7 @@ export default function Body3() {
         title: " Drag and Drop Images",
         description: " image drag and drop with enlarge image property",
         linkk: "https://thsurveys.decipherinc.com/survey/selfserve/53b/240510?debug=respview",
-        imgSrc: "./dragdrop/ImageDragandDrop-ezgif.com-crop.gif",
+        imgSrc: "./dragdrop/aa.gif",
       },
     ],
     "Image and video": [
