@@ -24,13 +24,7 @@ export default function Footer() {
         <p className="text-orange-400 md:text-[24px] text-[18px] font-semibold">
           Get In Touch
         </p>
-        <div className="flex gap-2 items-center ">
-          <MdLocationPin color="orange " fontSize={24} />
-
-          <p className="md:w-[350px] text-[12px] md:text-[16px]">
-            USA office address - 2435 Gill Road, Port Clinton OH 43452
-          </p>
-        </div>
+        
        
       </div>
       <div className="space-y-2 text-[12px] md:text-[16px] lg:mt-10 mt-2">
