@@ -24,10 +24,7 @@ export default function Footer() {
         <p className="text-orange-400 md:text-[24px] text-[18px] font-semibold">
           Get In Touch
         </p>
-        
-       
-      </div>
-      <div className="space-y-2 text-[12px] md:text-[16px] lg:mt-10 mt-2">
+                <div className="space-y-2 text-[12px] md:text-[16px] lg:mt-10 mt-2">
         <div className="flex gap-2 items-center">
           <GiRotaryPhone color="orange " fontSize={24} />
           <p>+1-419-504-1602</p>
@@ -37,6 +34,10 @@ export default function Footer() {
           <p>info@tehrihills.com</p>
         </div>
       </div>
+        
+       
+      </div>
+    
       </div>
     </div>
   );
