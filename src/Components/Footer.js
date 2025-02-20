@@ -31,14 +31,7 @@ export default function Footer() {
             USA office address - 2435 Gill Road, Port Clinton OH 43452
           </p>
         </div>
-        <div className="flex gap-2 items-center">
-          <MdLocationPin color="orange " fontSize={24} />
-
-          <p className="md:w-[350px] text-[12px] md:text-[16px]">
-            Head office address - 2G-34, Vidhi Vihar, New Tehri, Tehri Gharwal,
-            Uttarakhand -249001
-          </p>
-        </div>
+       
       </div>
       <div className="space-y-2 text-[12px] md:text-[16px] lg:mt-10 mt-2">
         <div className="flex gap-2 items-center">
