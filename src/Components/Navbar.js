@@ -26,7 +26,7 @@ const Navbar = () => {
             
 
            <button className="bg-white rounded-lg px-2">
-           <a href="https://www.tehrihills.com/contact-us/" className="hover:text-gray-400">
+           <a href="https://www.tehrihills.ai/contact" className="hover:text-gray-400">
               Get in Touch
             </a>
            </button>
